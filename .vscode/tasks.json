@@ -5,7 +5,7 @@
         "label": "program01",
         "type": "shell",
         "command": "g++",
-        "args": ["-std=c++20", "-fopenmp", "-Wall", "-o", "prog", "01/main.cpp"],
+        "args": ["-std=c++2a", "-fopenmp", "-Wall", "-o", "prog", "01/main.cpp"],
         "group": {
           "kind": "build",
           "isDefault": true
